@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SimpleHomeworkList</string>
+    <string-array name="presidents_array">
+        <item>Calculator</item>
+        <item>TipCalculator</item>
+        <item>TimeTable</item>
+        <item>ChangePassword</item>
+    </string-array>
+    <string-array name="images_array">
+        <item>R.drawable.image1</item>
+        <item>R.drawable.image2</item>
+        <item>R.drawable.image3</item>
+        <item>R.drawable.image4</item>
+    </string-array>
+
+    <string name="total">Total Amount</string>
+    <string name="fifteen">15%</string>
+    <string name="twenty">20%</string>
+    <string name="other">other</string>
+    <string name="cal">Calculate</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="plus">+</string>
+    <string name="sub">-</string>
+    <string name="div">÷</string>
+    <string name="mul">x</string>
+    <string name="result">=</string>
+    <string name="clear">c</string>
+    <string name="value">0</string>
+
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="time9">09</string>
+    <string name="arc">건축학</string>
+    <string name="time10">10</string>
+    <string name="edu">에  듀\n305</string>
+    <string name="soft">소프트</string>
+    <string name="time11">11</string>
+    <string name="time12">12</string>
+    <string name="gra">그래픽</string>
+    <string name="time13">13</string>
+    <string name="mob">모바일</string>
+    <string name="c304">304</string>
+    <string name="time14">14</string>
+    <string name="c412">412</string>
+    <string name="time15">15</string>
+    <string name="man">경  영</string>
+    <string name="time16">16</string>
+    <string name="c305">305</string>
+    <string name="sem">세미나</string>
+    <string name="time17">17</string>
+    <string name="c601">601</string>
+    <string name="time18">18</string>
+    <string name="fin">졸  작</string>
+    <string name="time19">19</string>
+    <string name="explainCal">This is my Mini Calculater\nThere is 0 ~ 9 number button\nand operators(+ - / * =)\nIf you want to run Mini Calculater\nClick button!!\n\nResult of The calculator finishes when “=“ is pressed, and the calculation result will be shown in a Toast message</string>
+    <string name="explainTime">This is my Time table\nIf you want to see my time table\nMonday to Sunday\nClick button!!</string>
+    <string name="explainTip">This is my Tip Calculater\nIf you calculate Tip using calculator\nClick button!!</string>
+</resources>

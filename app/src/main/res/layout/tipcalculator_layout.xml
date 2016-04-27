@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hong.tipcalculater.MainActivity"
+    android:background="#494545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="@string/total"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fifteen"
+                android:textSize="20dp"
+                android:id="@+id/per15"
+                android:textColor="#ffffff"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twenty"
+                android:textSize="20dp"
+                android:id="@+id/per20"
+                android:textColor="#ffffff"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:textSize="20dp"
+                android:id="@+id/other"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b6afaf"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/editText2"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="#ffffff"/>
+        </RadioGroup>
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cal"
+        android:layout_gravity="center"
+        android:id="@+id/cal"/>
+</LinearLayout>
